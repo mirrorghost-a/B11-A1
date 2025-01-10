@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Fira Sans', serif;
+}
+body{
+    background-color: #F1F1F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    width: 1280px;
+    height: 100px;
+    margin: 0px;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+ nav ul li{
+    font-size: 32px;
+    font-weight: bold;
+}
+nav ul button{
+    border: 1px solid #006A50;
+    color: #006A50;
+    width: 116px;
+    height: 52px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+}
+/* section banner */
+#banner1{
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+#banner1 .banner1content{
+    width: 622px;
+    height: 326px;
+}
+#banner1 h3{
+    font-size: 24px;
+    color: #0e0e0e75;
+    font-weight: 500px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+#banner1 h1{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: 0px;
+}
+#banner1 button{
+    height: 56px;
+    width: 270px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+/*Pillars of "Bangladesh 2.0"*/
+#pillarsbd{
+    width: 1280px;
+    height: 324px;
+    margin: 80px auto 0px;
+}
+#pillarsbd h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+#cardhldr1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+#cardhldr1 div{
+    width: 302px;
+    height: 244px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #0e0e0e2a;
+}
+
+#cardhldr1 div img{
+    margin: 24px;
+}
+#cardhldr1 div h3{
+    font-size: 20;
+    margin: 0px 24px 0px;
+}
+#cardhldr1 div p{
+    font-size: 16px;
+    color: #0e0e0e9f;
+    margin: 12px 24px 24px 24px;
+}
+/*The vision of future*/
+#tvof{
+    width: 1280px;
+    height: 765px;
+    margin: 80px auto 0px;
+}
+#tvof h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: 0px;
+}
+#tvof>div>p{
+    font-size: 16;
+    color: #0e0e0ea8;
+    margin-top: 24px 0px 32px;
+}
+.cardhldr2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    height: 325px;
+}
+.card{
+    border-radius: 16px;
+    width: 410.67px;;
+}
+.card img{
+    margin: 32px 0px 24px 32px;
+}
+.card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0e0ede;
+    margin: 0px 0px 12px 32px;
+}
+.card p{
+    width: 346.67px;
+    font-size: 16px;
+    color: #0e0e0eb9;
+    margin: 0px 0px 24px 32px;
+}
+.card button{
+    width: 122px;
+    height: 41px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 0px 24px 32px;
+}
+.blue{
+    background-color: #548ff52f;
+}
+.blue button{
+    background-color: #5490f5;
+}
+.green{
+    background-color: #C6E4D6;
+}
+.green button{
+    background-color: #09A15C;
+}
+.yellow{
+    background-color: #F7EBCF;
+}
+.yellow button{
+    background-color: #FFC239;
+}
+#quota{
+    background-color: white;
+    height: 256;
+    margin-top: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 16px;
+    color: #0e0e0ef1;
+    
+    
+}
+#quota h3{
+    background-image: url(../assets/quote-bg.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-top: 28px;
+    margin: 25px 24px 12px;
+    width: 1232px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#quota h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 24px 4px 24px;
+    padding: 0px;
+}
+#quota p{
+    margin: 0px 24px 48px;
+    width: 1232px;
+    font-size: 16px;
+}
+/*Your opinion Matter*/
+#uom>h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.tbl{
+    width: 1280px;
+    height: 409px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tbl thead tr td{
+    padding: 24px ;
+    height: 0px;
+    background-color: #C6E4D6;
+}
+.tbl>table{
+    width: 1216px;
+    height: 345px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-collapse: collapse;
+}
+.tbl tbody tr td{
+    border: 1px solid rgb(0, 0, 0,  0.151);
+}
+
+.tbl tbody tr td{
+    padding: 24px ;
+    height: 48px;
+}
+.drop{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 14px;
+    text-align: center;
+    height: 44px;
+    width: 152px;
+    margin: 0px auto;
+    background-color: rgba(9, 161, 93, 0.150);
+    border-radius: 4px;
+    border: 1px solid black;
+}
+/*Recent News*/
+#renew{
+    width: 1280px;
+    height: 1406px;
+
+}
+#renew>h2{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#renew>p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.700);
+    margin-bottom: 32px;
+}
+.bnm{
+    margin-bottom: 24px;
+    height: 402px;
+    display: flex;
+    background-color: white;
+    border-radius: 24px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bnimg{
+    border-radius: 24px;
+    height:306px;
+    width: 408px;
+    background-image: url(../assets/satelite.png);
+}
+.bnct{
+    width: 744px;
+    height: 290px;
+}
+.bnct h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.bnct p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.700);
+}
+.bnct button{
+    width:139px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 500;
+}
+/*Donate Today*/
+#dontody{
+    width: 1280px;
+    height: 464px;
+    text-align: center;
+}
+#dontody h1{
+    font-size: 40px;
+    font-size: bold;
+    margin-bottom: 0px;
+}
+#dontody p{  
+    width: 1104px;  
+    margin-top: 24px;
+    padding: 0px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.700);
+}
+.taka{
+    margin: 32px auto;
+    width: 1071px;
+    display: flex;
+    justify-content: space-around;
+}
+.taka>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 128px;
+    border: 1px solid rgba(0, 0, 0, 0.150);
+    border-radius: 16px;
+    background-color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.otam{
+    margin: 32px auto;
+    width: 1032px;
+    height: 64px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.150);
+    font-size: 20px;
+    color:rgba(14, 14, 14, 0.300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#dontody button{
+    width:151px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 500;
+}
+/*Subscribe Newsletter*/
+.subnews{
+    width: 1280px;
+    height: 395px;
+    margin-top: 80px;
+    background-color: #c6e4d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+.subnews h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+}
+.subp{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(8, 8, 8, 0.6);
+    margin: 16px auto 24px;
+    width: 622px;
+    
+}
+.email{
+    width: 750px;
+    height: 56px;
+    margin-right: none;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.300);
+    background-color: white;
+    font-size: 16px;
+}
+.em{
+    width: 600px;
+    margin-left: 40px;
+}
+.sub{
+    background-color: #006A50;
+    width: 150px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+}
+/*footer*/
+footer{
+    margin-top: 80px;
+    background-color: white;
+    width: 100%;
+    height: 226px;
+    color: black;
+    text-align: center;
+}
+footer h1{
+    margin: 50px auto 32px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+hr{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: .5px solid rgba(0, 0, 0, 0.100);
+}
+footer div{
+    margin: 0px auto;
+    width: 120.55px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+}
